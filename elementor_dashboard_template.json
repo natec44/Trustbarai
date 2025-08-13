@@ -1,0 +1,39 @@
+{
+  "version": "0.4",
+  "title": "TrustBar AI Dashboard Embed",
+  "type": "page",
+  "content": [
+    {
+      "elType": "section",
+      "settings": {
+        "padding": {
+          "top": "30",
+          "bottom": "30"
+        }
+      },
+      "elements": [
+        {
+          "elType": "column",
+          "elements": [
+            {
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "TrustBar AI Dashboard",
+                "header_size": "h2",
+                "align": "center"
+              }
+            },
+            {
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<iframe src='https://share.streamlit.io/YOUR_USERNAME/YOUR_REPO/main/app.py' width='100%' height='900' style='border:none;'></iframe>"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
